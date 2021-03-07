@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Unica/CenaUnica.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Lugares/0-B3.unity
+    guid: 26851596559c9d148ada10a723c093ca
+  - enabled: 1
+    path: Assets/Scenes/Lugares/1-Guarita.unity
+    guid: c60e128d29c8b7949af3159795e837c1
+  - enabled: 1
+    path: Assets/Scenes/Lugares/2-Redondo.unity
+    guid: 6b2aef3fe0246af4594a51fbb11596af
+  - enabled: 1
+    path: Assets/Scenes/Lugares/3-Cantina.unity
+    guid: 3e4a2b93ff6805644b5bb7e75cb44822
+  - enabled: 1
+    path: Assets/Scenes/Lugares/4-Praca.unity
+    guid: ee394cc97a218314b920c6aab135c627
+  - enabled: 1
+    path: Assets/Scenes/Lugares/5-Biblioteca.unity
+    guid: 8e228ff6d5aabb4468f7688f83d887f8
   m_configObjects: {}
