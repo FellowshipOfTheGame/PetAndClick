@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GameMaster : MonoBehaviour
 {
+
+	public bool[] inventorySlots;
+	public GameObject[] slotsObj;
     private static GameMaster instance;
-    public Vector2 lastCheckPointPos;
     void Awake()
         {
             if(instance == null)
@@ -17,5 +19,19 @@ public class GameMaster : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+    public void CollectItem(int item_id){
+    	if(item_id<inventorySlots.Length && item_id>=0){
+    		inventorySlots[item_id]=true;
+    		slotsObj[item_id].SetActive(true);
+    	}
+    }
+
+    public void RemoveItem(int item_id){
+    	if(item_id<inventorySlots.Length && item_id>=0){
+    		inventorySlots[item_id]=false;
+    		slotsObj[item_id].SetActive(false);
+    	}
+    }
 
 }

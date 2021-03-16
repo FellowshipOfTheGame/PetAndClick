@@ -12,6 +12,7 @@ public class CanvasScript : MonoBehaviour
 	int atual=0;
 	public void LoadScene(string scene)
 	{
+		Fungus.Flowchart.BroadcastFungusMessage("InventoryAnim");
 		SceneManager.LoadScene(scene);
 	}
 
