@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameMaster : MonoBehaviour
 {
 
+    
 	public bool[] inventorySlots;
 	public GameObject[] slotsObj;
     public GameObject canvasObj;
@@ -85,8 +86,7 @@ public class GameMaster : MonoBehaviour
                                 flows[7].SetActive(true); //Flow de devolução
                                 CumpriuQuest();
                         }
-                    break;               
-
+                    break;   
                     case "01": //Redondo
                         if(current_quest==3 || current_quest==4)
                             flows[4].SetActive(true); //Flow do veterano
@@ -95,6 +95,22 @@ public class GameMaster : MonoBehaviour
                     case "02": //Guarita
                         if(current_quest==3 || current_quest==4)
                             flows[5].SetActive(true); //Flow do guardinha
+                    break;
+
+                
+                    case "07": //Sala do PET
+                        if(current_quest==6)
+                            flows[8].SetActive(true);
+                    break;
+
+                    case "08": //Sala do FOG
+                        if(current_quest==6)
+                            flows[10].SetActive(true);
+                    break;
+
+                    case "04": //Jardim Secreto
+                        if(current_quest==6)
+                            flows[5].SetActive(true); 
                     break;
 
 

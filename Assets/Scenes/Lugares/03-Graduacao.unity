@@ -1655,9 +1655,9 @@ RectTransform:
   m_Father: {fileID: 669812990}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.041}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 387.99994, y: -169}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 52, y: 41}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1530409399
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.6117647, b: 0.38039216, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2126,6 +2126,7 @@ GameObject:
   - component: {fileID: 1968571250}
   - component: {fileID: 1968571249}
   - component: {fileID: 1968571254}
+  - component: {fileID: 1968571255}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2248,6 +2249,22 @@ MonoBehaviour:
   quest: 3
   isQuestItem: 1
   itemButton: {fileID: 1469747202}
+--- !u!114 &1968571255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968571248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f014ae6082c50f45bb410eb59de6965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 0}
+  setas:
+  - {fileID: 1530409397}
+  quest_ativa: 6
 --- !u!1 &2078129024
 GameObject:
   m_ObjectHideFlags: 1
