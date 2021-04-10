@@ -13,6 +13,7 @@ public class CanvasScript : MonoBehaviour
 	public void LoadScene(string scene)
 	{
 		Fungus.Flowchart.BroadcastFungusMessage("InventoryAnim");
+		Fungus.Flowchart.BroadcastFungusMessage("MenuAnim");
 		SceneManager.LoadScene(scene);
 	}
 

@@ -9,21 +9,45 @@ EditorBuildSettings:
     path: Assets/Scenes/Unica/CenaUnica.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Lugares/0-B3.unity
+    path: Assets/Scenes/Lugares/Menu.unity
+    guid: ec6bcb71de3cd004a922252fc699052c
+  - enabled: 1
+    path: Assets/Scenes/Lugares/Intro.unity
+    guid: a2961e7eec419fa41a280855e42bd8f6
+  - enabled: 1
+    path: Assets/Scenes/Lugares/00-Praca.unity
     guid: 26851596559c9d148ada10a723c093ca
   - enabled: 1
-    path: Assets/Scenes/Lugares/1-Guarita.unity
+    path: Assets/Scenes/Lugares/01-Redondo.unity
     guid: c60e128d29c8b7949af3159795e837c1
   - enabled: 1
-    path: Assets/Scenes/Lugares/2-Redondo.unity
+    path: Assets/Scenes/Lugares/02-Guarita.unity
     guid: 6b2aef3fe0246af4594a51fbb11596af
   - enabled: 1
-    path: Assets/Scenes/Lugares/3-Cantina.unity
+    path: Assets/Scenes/Lugares/03-Graduacao.unity
     guid: 3e4a2b93ff6805644b5bb7e75cb44822
   - enabled: 1
-    path: Assets/Scenes/Lugares/4-Praca.unity
+    path: Assets/Scenes/Lugares/04-Jardim.unity
     guid: ee394cc97a218314b920c6aab135c627
   - enabled: 1
-    path: Assets/Scenes/Lugares/5-Biblioteca.unity
+    path: Assets/Scenes/Lugares/05-Biblioteca.unity
     guid: 8e228ff6d5aabb4468f7688f83d887f8
+  - enabled: 1
+    path: Assets/Scenes/Lugares/06-Teorema.unity
+    guid: 704e9b4d084e91f4e95679f6be069c37
+  - enabled: 1
+    path: Assets/Scenes/Lugares/07-PET.unity
+    guid: e2533f66538863d4cb276f4f9918ca06
+  - enabled: 1
+    path: Assets/Scenes/Lugares/08-FOG.unity
+    guid: f8a4cc80dbedcf245b397538f4655d83
+  - enabled: 1
+    path: Assets/Scenes/Lugares/09-Quadro.unity
+    guid: a4bbaf47c91be1f46a15e9cd51c000bc
+  - enabled: 1
+    path: Assets/Scenes/Lugares/10-Sala.unity
+    guid: 0a3aaddf8955faf419ac6efb44b861c5
+  - enabled: 1
+    path: Assets/Scenes/Lugares/11-Biblioteca2.unity
+    guid: c118c71d8255aac4f9242c2616696031
   m_configObjects: {}
