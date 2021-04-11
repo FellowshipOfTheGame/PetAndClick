@@ -100,17 +100,17 @@ public class GameMaster : MonoBehaviour
                 
                     case "07": //Sala do PET
                         if(current_quest==6)
-                            flows[8].SetActive(true);
+                            flows[8].SetActive(true); //CUBO
                     break;
 
                     case "08": //Sala do FOG
                         if(current_quest==6)
-                            flows[10].SetActive(true);
+                            flows[10].SetActive(true); //Jacquin a Jaca
                     break;
 
                     case "04": //Jardim Secreto
                         if(current_quest==6)
-                            flows[5].SetActive(true); 
+                            flows[12].SetActive(true); //Busto
                     break;
 
 
