@@ -10,7 +10,12 @@ public class riddleScript : MonoBehaviour
 	public GameObject panel_errou;
 	public GameObject panel_input;
  	public TMP_InputField input;
+ 	public GameObject seta_entra;
 
+ 	public void Start(){
+        if(PlayerPrefs.GetInt("RiddleCompletado")==1)
+        	SalaLiberada();
+ 	}
 	public void ConfirmouResposta(){
 		if(input.text.ToLower()==resposta){
 			panel_input.SetActive(false);
@@ -22,7 +27,9 @@ public class riddleScript : MonoBehaviour
 	}
 
 	public void SalaLiberada(){
+		seta_entra.SetActive(true);
 		gameObject.SetActive(false);
+        PlayerPrefs.SetInt("RiddleCompletado", 1);
 	}
 
 	public void VoltarPanel(){

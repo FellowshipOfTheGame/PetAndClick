@@ -2245,7 +2245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   master: {fileID: 0}
-  id: 3
+  id: 2
   quest: 3
   isQuestItem: 1
   itemButton: {fileID: 1469747202}

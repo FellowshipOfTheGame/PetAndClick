@@ -19,6 +19,7 @@ public class GameMaster : MonoBehaviour
     private static GameMaster instance;
     void Start(){
         PlayerPrefs.SetInt("Current Quest", current_quest);
+        PlayerPrefs.SetInt("RiddleCompletado", 0);
     }
     void Awake()
         { 
@@ -41,6 +42,7 @@ public class GameMaster : MonoBehaviour
         // called second
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        PlayerPrefs.SetInt("Current Quest", current_quest);
             /*Inventory/Menu canvas*/
 
              if(scene.name=="Menu" || scene.name=="Intro")
