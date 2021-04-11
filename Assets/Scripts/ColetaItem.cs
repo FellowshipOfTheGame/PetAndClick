@@ -9,10 +9,13 @@ public class ColetaItem : MonoBehaviour
 	public int quest;
 	public bool isQuestItem;
 	public GameObject itemButton;
+	public GameObject item;
     // Start is called before the first frame update
     void Start()
     {
          master = GameObject.FindWithTag("Master").GetComponent(typeof(GameMaster)) as GameMaster;
+         if(master.inventorySlots[id])
+         	item.SetActive(false);
     }
     public void Coletar(){
         master.CollectItem(id);

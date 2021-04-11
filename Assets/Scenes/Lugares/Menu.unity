@@ -15446,7 +15446,7 @@ MonoBehaviour:
   - {fileID: 1301195847}
   - {fileID: 2133450261}
   objetivoText: {fileID: 874706058}
-  current_quest: 1
+  current_quest: 3
   objetivos:
   - "Objetivo: Ir at\xE9 a sala de aula (sala 4005)"
   - "Objetivo: Pegar o livro de c\xE1lculo I"
@@ -19143,7 +19143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2133450262
 Transform:
   m_ObjectHideFlags: 0
