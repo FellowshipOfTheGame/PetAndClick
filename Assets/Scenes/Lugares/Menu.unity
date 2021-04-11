@@ -336,7 +336,7 @@ MonoBehaviour:
     projeto unificado, forjado pelos mais antigos membros do FoG..."
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -439,7 +439,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -20
     y: 165
-    width: 102
+    width: 62
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2518,7 +2518,8 @@ MonoBehaviour:
   nameText: Gauss
   nameColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 3dcfbf8456f49ce4cb886fb5d91dc298, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -10327,7 +10328,7 @@ MonoBehaviour:
     plantinha, um patrim\xF4nio hist\xF3rico, sabe como \xE9, n\xE9?!"
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10354,7 +10355,7 @@ MonoBehaviour:
   storyText: "Ah, me perdoe, n\xE3o vi que voc\xEA estava a\xED!"
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10430,7 +10431,7 @@ MonoBehaviour:
   storyText: "VOC\xCA \xC9 A VERGONHA DA PROFISSION!!"
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5956e6ecd838e1a43b248e50ed8f1364, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10492,7 +10493,7 @@ MonoBehaviour:
   storyText: Jacquin, a jaca.
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10644,7 +10645,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 814884386}
   selectedCommands:
-  - {fileID: 814884401}
+  - {fileID: 814884392}
   variables: []
   description: 
   stepPause: 0
@@ -10674,7 +10675,7 @@ MonoBehaviour:
     o programa da Ana Maria e eu n\xE3o posso perder aquela receita."
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10702,7 +10703,7 @@ MonoBehaviour:
     isso?"
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10730,7 +10731,7 @@ MonoBehaviour:
     como voc\xEA..."
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5956e6ecd838e1a43b248e50ed8f1364, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10757,7 +10758,7 @@ MonoBehaviour:
   storyText: Conte-me mais...
   description: 
   character: {fileID: 2046673716}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13326,7 +13327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1759465014}
+  selectedFlowchart: {fileID: 2133450294}
 --- !u!4 &1265995729
 Transform:
   m_ObjectHideFlags: 1
@@ -13582,7 +13583,7 @@ MonoBehaviour:
   storyText: "Esses jovens n\xE3o tem mais o m\xEDnimo de cordialidade..."
   description: 
   character: {fileID: 373208712}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 3dcfbf8456f49ce4cb886fb5d91dc298, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13755,11 +13756,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 569.2795, y: -56.022152}
+  scrollPos: {x: 583.292, y: -35.802776}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 204
-  zoom: 0.5800004
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -13768,7 +13769,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1301195856}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1301195858}
   variables: []
   description: 
   stepPause: 0
@@ -13797,7 +13799,7 @@ MonoBehaviour:
   storyText: "At\xE9."
   description: 
   character: {fileID: 373208712}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 3dcfbf8456f49ce4cb886fb5d91dc298, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13824,7 +13826,7 @@ MonoBehaviour:
   storyText: "Na copa \xE0 esquerda voc\xEA deve encontrar a\xE7\xFAcar."
   description: 
   character: {fileID: 373208712}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 3dcfbf8456f49ce4cb886fb5d91dc298, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13851,7 +13853,7 @@ MonoBehaviour:
   storyText: Claro, tudo bem.
   description: 
   character: {fileID: 373208712}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 3dcfbf8456f49ce4cb886fb5d91dc298, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13932,7 +13934,7 @@ MonoBehaviour:
   storyText: Sim, estou bem, muito obrigado, cavalheiro!
   description: 
   character: {fileID: 373208712}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 3dcfbf8456f49ce4cb886fb5d91dc298, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18740,7 +18742,9 @@ MonoBehaviour:
   nameText: Jacquin
   nameColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 5956e6ecd838e1a43b248e50ed8f1364, type: 3}
+  - {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -19139,7 +19143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2133450262
 Transform:
   m_ObjectHideFlags: 0
