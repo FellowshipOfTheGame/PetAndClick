@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Lugares/09-B5.unity
     guid: a4bbaf47c91be1f46a15e9cd51c000bc
   - enabled: 1
-    path: Assets/Scenes/Lugares/10-SalaB4.unity
+    path: Assets/Scenes/Lugares/10-Sala.unity
     guid: 0a3aaddf8955faf419ac6efb44b861c5
   - enabled: 1
     path: Assets/Scenes/Lugares/11-Biblioteca2.unity
