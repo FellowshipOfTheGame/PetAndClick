@@ -303,7 +303,6 @@ MonoBehaviour:
   menu_canvas:
   - {fileID: 745740062}
   - {fileID: 2002847301}
-  fc: {fileID: 0}
 --- !u!114 &320573236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,7 +751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &745740063
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1383,7 +1382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2002847302
 RectTransform:
   m_ObjectHideFlags: 0

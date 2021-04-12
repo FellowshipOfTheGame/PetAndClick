@@ -64,7 +64,7 @@ public class GameMaster : MonoBehaviour
         }
             /*Inventory/Menu canvas*/
 
-             if(scene.name=="Menu" || scene.name=="Intro")
+             if(scene.name=="Menu" || scene.name=="Intro" || scene.name=="Final")
                 canvasObj.SetActive(false);
             else{
                 canvasObj.SetActive(true);
