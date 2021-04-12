@@ -1237,17 +1237,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381561318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.074053094, w: 0.9972543}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 902315088}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.494}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275.1, y: -143.8}
-  m_SizeDelta: {x: 126.98, y: 88.78}
+  m_AnchoredPosition: {x: 244, y: -134}
+  m_SizeDelta: {x: 190.04, y: 141.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1381561320
 MonoBehaviour:
@@ -1269,9 +1269,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e5bbbc3313d22694181de5fdbfc2df86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e21cc31ecbedd248969e62cc28f07ef, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
