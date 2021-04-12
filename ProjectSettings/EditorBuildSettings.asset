@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Unica/CenaUnica.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Lugares/Menu.unity
     guid: ec6bcb71de3cd004a922252fc699052c
   - enabled: 1
@@ -50,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lugares/11-Biblioteca2.unity
     guid: c118c71d8255aac4f9242c2616696031
+  - enabled: 1
+    path: Assets/Scenes/Lugares/Final.unity
+    guid: 1219461895139cd40aa2ff4008b711d2
   m_configObjects: {}

@@ -17,10 +17,25 @@ public class GameMaster : MonoBehaviour
     public string[] objetivos;
     public menuInGameScript menu;
     private static GameMaster instance;
+    public bool isPronto;
     void Start(){
         PlayerPrefs.SetInt("Current Quest", current_quest);
         PlayerPrefs.SetInt("RiddleCompletado", 0);
+        PlayerPrefs.SetInt("CalculoCompletado",0);
+        isPronto=false;
     }
+
+    public void RestartGame(){
+        for(int i=0; i<inventorySlots.Length; i++){
+            inventorySlots[i]=false;
+        }
+        current_quest=1;
+        PlayerPrefs.SetInt("Current Quest", 1);
+        PlayerPrefs.SetInt("RiddleCompletado", 0);
+        PlayerPrefs.SetInt("CalculoCompletado",0);
+        isPronto=false;
+    }
+    
     void Awake()
         { 
             if(instance == null)
@@ -43,6 +58,10 @@ public class GameMaster : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         PlayerPrefs.SetInt("Current Quest", current_quest);
+        if(!isPronto && inventorySlots[3]&& inventorySlots[4]&&inventorySlots[5]&&inventorySlots[6]&&inventorySlots[10]){
+            CumpriuQuest();
+            isPronto=true;
+        }
             /*Inventory/Menu canvas*/
 
              if(scene.name=="Menu" || scene.name=="Intro")
@@ -113,6 +132,7 @@ public class GameMaster : MonoBehaviour
                     case "04": //Jardim Secreto
                         if(current_quest==6)
                             flows[12].SetActive(true); //Busto
+                        
                     break;
 
 

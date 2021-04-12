@@ -14345,7 +14345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06bf8ee6fe30f444ab840252523278f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventorySlots: 000000000000000000000000
+  inventorySlots: 00000000000000000000000000
   slotsObj:
   - {fileID: 4045165141338257154}
   - {fileID: 4045165141282969297}
@@ -14359,6 +14359,7 @@ MonoBehaviour:
   - {fileID: 4045165141876099130}
   - {fileID: 4045165142571084694}
   - {fileID: 4045165142298007225}
+  - {fileID: 4045165142960033229}
   canvasObj: {fileID: 4045165141543718177}
   flows:
   - {fileID: 4045165143196302955}
@@ -14383,7 +14384,7 @@ MonoBehaviour:
   - "Objetivo: Buscar carteirinha na gradua\xE7\xE3o"
   - 'Objetivo: Devolver carteirinha do Freddy'
   - 'Objetivo: Recuperar a carteirinha do Freddy no teorema da Gaveta.'
-  - 'Objetivo:  Buscar os itens da lista do Freddy'
+  - 'o:  Buscar os itens da lista do Freddy Freddy'
   - 'Objetivo:  Preparar o elixir de caju no jardim secreto'
   menu: {fileID: 4045165142470874227}
 --- !u!1 &4045165142890762225

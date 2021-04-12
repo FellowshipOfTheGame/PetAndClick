@@ -8,7 +8,7 @@ public class CanvasScript : MonoBehaviour
 {
 	[SerializeField]
 	GameObject[] menu_canvas;
-	public Flowchart fc;
+	//public Flowchart fc;
 	int atual=0;
 	public void LoadScene(string scene)
 	{
@@ -28,9 +28,9 @@ public class CanvasScript : MonoBehaviour
 		menu_canvas[id].SetActive(true);
 		atual=id;
 	}
-
+/*
 	public void ButtonPressed(int id){
 		  fc.SetIntegerVariable("buttonId", id);
 			Fungus.Flowchart.BroadcastFungusMessage("movePress"+atual);
-	}	
+	}	*/
 }

@@ -2052,6 +2052,7 @@ GameObject:
   - component: {fileID: 2008341314}
   - component: {fileID: 2008341319}
   - component: {fileID: 2008341320}
+  - component: {fileID: 2008341321}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2187,3 +2188,19 @@ MonoBehaviour:
   setas:
   - {fileID: 781815909}
   quest_ativa: 5
+--- !u!114 &2008341321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008341313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f014ae6082c50f45bb410eb59de6965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 0}
+  setas:
+  - {fileID: 1618305853}
+  quest_ativa: 7
