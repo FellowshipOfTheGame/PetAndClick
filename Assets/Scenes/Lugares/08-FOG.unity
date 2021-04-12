@@ -363,6 +363,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1638826782}
+        m_TargetAssemblyTypeName: ativaFlow, Assembly-CSharp
+        m_MethodName: AtivaFlow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &502538136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1092,7 +1104,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1638826781}
+      - m_Target: {fileID: 35553072}
         m_TargetAssemblyTypeName: ColetaItem, Assembly-CSharp
         m_MethodName: Coletar
         m_Mode: 1
@@ -2142,7 +2154,7 @@ MonoBehaviour:
   id: 5
   quest: 6
   isQuestItem: 0
-  itemButton: {fileID: 1265069808}
+  itemButton: {fileID: 1426685087}
   item: {fileID: 502538133}
 --- !u!1 &1638826775
 GameObject:
@@ -2158,6 +2170,7 @@ GameObject:
   - component: {fileID: 1638826777}
   - component: {fileID: 1638826776}
   - component: {fileID: 1638826781}
+  - component: {fileID: 1638826782}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2285,6 +2298,19 @@ MonoBehaviour:
   isQuestItem: 0
   itemButton: {fileID: 2038804494}
   item: {fileID: 1265069808}
+--- !u!114 &1638826782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638826775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dfc7c05fe96b14ea2e1bba17dcaa48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowTag: JacanFlow
 --- !u!1 &1906151383
 GameObject:
   m_ObjectHideFlags: 0
