@@ -438,7 +438,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: af6fceb1faa95fa45a929bc0f8dfab61, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: 1
   loop: 1
-  targetAudioSource: {fileID: 322318475}
+  targetAudioSource: {fileID: 421545249}
   audioMode: 0
   beepSounds:
   - {fileID: 8300000, guid: 43b8faa99f181e541880317ee4c30370, type: 3}
