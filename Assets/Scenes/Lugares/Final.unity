@@ -285,6 +285,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: targetAudioSource
+      value: 
+      objectReference: {fileID: 322318475}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: beepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 43b8faa99f181e541880317ee4c30370, type: 3}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: beepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b06eb166cd6cd34ea29f5aa646116c5, type: 3}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: beepSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: ce6b8b73546524248812f8fda583eaed, type: 3}
+    - target: {fileID: 6347277297734879911, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: af6fceb1faa95fa45a929bc0f8dfab61, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
 --- !u!114 &322318474 stripped
@@ -298,6 +318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &322318475 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6347277297734879911, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+  m_PrefabInstance: {fileID: 322318473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &421545244
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &421545245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,12 +538,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: 1
   loop: 1
-  targetAudioSource: {fileID: 0}
+  targetAudioSource: {fileID: 322318475}
   audioMode: 0
   beepSounds:
-  - {fileID: 8300000, guid: 774486030b696474e8b3cf7f178123da, type: 3}
-  - {fileID: 8300000, guid: f637c5ce9d10e45c7855ed89bfc6b97e, type: 3}
-  - {fileID: 8300000, guid: c53b7c20372e444c6bd7f2ac0729bbe2, type: 3}
+  - {fileID: 8300000, guid: 43b8faa99f181e541880317ee4c30370, type: 3}
+  - {fileID: 8300000, guid: 6b06eb166cd6cd34ea29f5aa646116c5, type: 3}
+  - {fileID: 8300000, guid: ce6b8b73546524248812f8fda583eaed, type: 3}
   soundEffect: {fileID: 0}
   inputSound: {fileID: 8300000, guid: 14a396b1562834718b2d52b9c4639264, type: 3}
 --- !u!114 &421545251

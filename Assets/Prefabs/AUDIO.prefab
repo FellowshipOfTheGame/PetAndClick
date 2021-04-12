@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &546303395821635268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546303395821635269}
+  - component: {fileID: 546303395821635266}
+  m_Layer: 0
+  m_Name: AUDIO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &546303395821635269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546303395821635268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &546303395821635266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546303395821635268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bd4ca2aceaa45478167e8a8bb66eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: b14f13d259cd8f0478c463604c142477, type: 3}
+    outputAudioMixerGroup: {fileID: -734863155113629171, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 36dc551dd1396bb4797ae5d5c0a3e244, type: 3}
+    outputAudioMixerGroup: {fileID: -734863155113629171, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MenuMudOp
+    clip: {fileID: 8300000, guid: cce59ac298ca0064eab42e246119941c, type: 3}
+    outputAudioMixerGroup: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuSelOp
+    clip: {fileID: 8300000, guid: 8a1f2cf22d6a6914585592c53b5bd0b7, type: 3}
+    outputAudioMixerGroup: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SetaIn
+    clip: {fileID: 8300000, guid: 9abc2ef529b3a2047b8b6210c8896628, type: 3}
+    outputAudioMixerGroup: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SetaOut
+    clip: {fileID: 8300000, guid: d998a7d163128f04ea0bc8dcdd2981bd, type: 3}
+    outputAudioMixerGroup: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SetaSom
+    clip: {fileID: 8300000, guid: 0e4f518a1925a7349ab6eebca6f1d402, type: 3}
+    outputAudioMixerGroup: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Item
+    clip: {fileID: 8300000, guid: 4ca392256911a994c9008dba1b43f8b3, type: 3}
+    outputAudioMixerGroup: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

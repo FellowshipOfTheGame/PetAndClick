@@ -7,6 +7,7 @@ TagManager:
   - Master
   - CuboFlow
   - JacanFlow
+  - Audio
   layers:
   - Default
   - TransparentFX

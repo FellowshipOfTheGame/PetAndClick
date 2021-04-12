@@ -14,17 +14,22 @@ public class AudioManager : MonoBehaviour
         {
                 s.source = gameObject.AddComponent<AudioSource>();
                 s.source.clip = s.clip;
-
+                s.source.loop=s.loop;
                 s.source.volume = s.volume;
                 s.source.pitch = s.pitch;
                 s.source.outputAudioMixerGroup=s.outputAudioMixerGroup;
         }
-        Play("Pet");
     }
 
     public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
         s.source.Play();
+    }    
+    
+    public void Stop(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Stop();
     }
 }

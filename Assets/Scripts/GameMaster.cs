@@ -17,12 +17,16 @@ public class GameMaster : MonoBehaviour
     public string[] objetivos;
     public menuInGameScript menu;
     private static GameMaster instance;
+    bool menuIsPlaying;
+    public AudioManager audio;
     public bool isPronto;
     void Start(){
         PlayerPrefs.SetInt("Current Quest", current_quest);
         PlayerPrefs.SetInt("RiddleCompletado", 0);
         PlayerPrefs.SetInt("CalculoCompletado",0);
         isPronto=false;
+        audio.Play("MenuMusic");
+        menuIsPlaying=true;
     }
 
     public void RestartGame(){
@@ -64,9 +68,20 @@ public class GameMaster : MonoBehaviour
         }
             /*Inventory/Menu canvas*/
 
-             if(scene.name=="Menu" || scene.name=="Intro" || scene.name=="Final")
+             if(scene.name=="Menu" || scene.name=="Intro" || scene.name=="Final"){
                 canvasObj.SetActive(false);
+                if(!menuIsPlaying){
+        				audio.Stop("GameMusic");
+        				audio.Play("MenuMusic");
+        				menuIsPlaying=true;
+                }
+            }
             else{
+            	if(menuIsPlaying){
+        				audio.Stop("MenuMusic");
+        				audio.Play("GameMusic");
+        				menuIsPlaying=false;
+                }
                 canvasObj.SetActive(true);
                 menu.closeMenuInventory();
                 /*Quests and objectives*/

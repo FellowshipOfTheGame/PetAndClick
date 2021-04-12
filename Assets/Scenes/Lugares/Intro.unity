@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &9881930 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6347277297734879911, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+  m_PrefabInstance: {fileID: 499570682}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &403057671 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6347277297734879906, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
@@ -245,6 +250,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: targetAudioSource
+      value: 
+      objectReference: {fileID: 9881930}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: beepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 43b8faa99f181e541880317ee4c30370, type: 3}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: beepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b06eb166cd6cd34ea29f5aa646116c5, type: 3}
+    - target: {fileID: 6347277297734879908, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: beepSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: ce6b8b73546524248812f8fda583eaed, type: 3}
+    - target: {fileID: 6347277297734879911, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: af6fceb1faa95fa45a929bc0f8dfab61, type: 3}
+    - target: {fileID: 6347277297734879911, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
 --- !u!1 &709744383

@@ -486,6 +486,18 @@ MonoBehaviour:
           m_StringArgument: 09-B5
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219720742}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SetaSom
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &95505313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,8 +578,76 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &219720741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 546303395821635268, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_Name
+      value: AUDIO
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 546303395821635269, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+--- !u!114 &219720742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 546303395821635266, guid: f0cf8ed6965038942854ace54b996f5d, type: 3}
+  m_PrefabInstance: {fileID: 219720741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bd4ca2aceaa45478167e8a8bb66eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &228630665
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +712,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246534992
 GameObject:
@@ -669,7 +749,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu_canvas: []
-  fc: {fileID: 0}
 --- !u!114 &246534994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,7 +826,7 @@ RectTransform:
   - {fileID: 1151536999}
   - {fileID: 1503446770}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1015,6 +1094,18 @@ MonoBehaviour:
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 05-Biblioteca
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 219720742}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SetaSom
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1341316826
@@ -1323,6 +1414,18 @@ MonoBehaviour:
           m_StringArgument: 08-FOG
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 219720742}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SetaSom
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1751507561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,6 +1557,18 @@ MonoBehaviour:
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 01-Redondo
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 219720742}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SetaSom
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1828939501
@@ -1775,7 +1890,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2101663122
 GameObject:
