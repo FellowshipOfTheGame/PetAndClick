@@ -302,8 +302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -168.736}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.399918, y: -35.500057}
-  m_SizeDelta: {x: 66.58, y: 18.28}
+  m_AnchoredPosition: {x: -84, y: -27}
+  m_SizeDelta: {x: 125.15, y: 51.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248723089
 MonoBehaviour:
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pra\xE7a"
+  m_text: "Pra\xE7a das bandeiras"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -986,8 +986,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 193.057}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.5, y: 44.5}
-  m_SizeDelta: {x: 66.58, y: 18.28}
+  m_AnchoredPosition: {x: -28.52, y: 36.27}
+  m_SizeDelta: {x: 109.2, y: 25.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &924012969
 MonoBehaviour:
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PET
+  m_text: PET (B1)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2033,8 +2033,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -186.315}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39.3, y: -37.7}
-  m_SizeDelta: {x: 66.58, y: 18.28}
+  m_AnchoredPosition: {x: -40.67, y: -53.17}
+  m_SizeDelta: {x: 66.58, y: 47.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1740550025
 MonoBehaviour:
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Teorema
+  m_text: Teorema da gaveta
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

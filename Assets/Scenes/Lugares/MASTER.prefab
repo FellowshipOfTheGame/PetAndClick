@@ -1489,8 +1489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Hm, antes eu preciso que algu\xE9m regue a plantinha, poderia fazer
-    isso?"
+  storyText: "Hm, nesse caso posso te ajudar, mas antes eu preciso que algu\xE9m
+    regue a plantinha, poderia fazer isso?"
   description: 
   character: {fileID: 4045165142323655795}
   portrait: {fileID: 21300000, guid: 0e1559917b7a3fb44abe5730a9d2592e, type: 3}
@@ -4356,7 +4356,7 @@ MonoBehaviour:
   itemId: 56
   indentLevel: 0
   storyText: "Aconteceu algo estranho, um outro veterano, n\xE3o sei o nome, disse
-    que voc\xEA \u2018se foi a muito tempo\u2019..."
+    que voc\xEA \u2018\u2018se formou h\xE1 muito tempo\u2019\u2019..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}

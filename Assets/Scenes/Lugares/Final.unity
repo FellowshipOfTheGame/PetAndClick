@@ -189,6 +189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextoIntro
       objectReference: {fileID: 0}
+    - target: {fileID: 6347277297734879896, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6347277297734879897, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1299,7 +1303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -31.039673, y: 30.306}
+  m_AnchoredPosition: {x: 86, y: 26}
   m_SizeDelta: {x: 93.6205, y: 92.539}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945650100
@@ -1965,8 +1969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 181.474}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -499, y: -232}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: -512.7367, y: -245.73671}
+  m_SizeDelta: {x: 133.2068, y: 133.2068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1619849870
 MonoBehaviour:
@@ -2940,7 +2944,7 @@ MonoBehaviour:
   sayDialog: {fileID: 322318474}
 --- !u!114 &2062504299
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
