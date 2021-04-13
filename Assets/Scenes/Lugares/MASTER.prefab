@@ -574,7 +574,7 @@ MonoBehaviour:
   scrollPos: {x: 248.09537, y: 154.37901}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 479
   zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
@@ -584,7 +584,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 4045165141359045821}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 4045165141359045808}
   variables: []
   description: 
   stepPause: 0
@@ -695,7 +696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Ah, ent\xE3o \xE9 aqui minha sala."
+  storyText: "Ah, ent\xE3o \xE9 aqui a minha sala."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -743,7 +744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "U\xE9, n\xE3o tem ninguem por aqui tamb\xE9m?"
+  storyText: "U\xE9, n\xE3o tem ningu\xE9m por aqui tamb\xE9m?"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -791,7 +792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: "Poxa, mas parece at\xE9 estar um pouco vazia."
+  storyText: "Poxa, mas parece at\xE9 estar um pouco vazia..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -818,7 +819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: Pelo jeito preciso descobrir como consigo aquele livro ali.
+  storyText: Pelo jeito preciso descobrir como consigo aquele livro ali...
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -922,10 +923,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 118.5849, y: -7.351151}
+  scrollPos: {x: 324.5849, y: 145.64885}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 550
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -936,7 +937,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 4045165141360218469}
   selectedCommands:
-  - {fileID: 4045165141360218479}
+  - {fileID: 4045165141360218476}
   variables: []
   description: 
   stepPause: 0
@@ -964,7 +965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -20
     y: 165
-    width: 63
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1041,7 +1042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.479385
     y: 69
-    width: 61
+    width: 101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1188,7 +1189,7 @@ MonoBehaviour:
   itemId: 17
   indentLevel: 0
   storyText: "Ih, l\xE1 vamos n\xF3s\u2026 Calma, calma, n\xE3o tem motivo pra brigar
-    comigo"
+    comigo!"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -1517,7 +1518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "A sala do FOG \xE9 por aqui, n\xE9? Talvez eu encontre algo por l\xE1."
+  storyText: "A Sala do FOG \xE9 por aqui, n\xE9? Talvez eu encontre algo por l\xE1."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -2947,10 +2948,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 321.84497, y: 29.61669}
+  scrollPos: {x: 366.58188, y: 283.56406}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 538
   zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
@@ -3034,7 +3035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: "Perguntar ao esqueleto como pegar o livro de c\xE1lculo 1"
+  text: "Perguntar ao esqueleto como pegar o livro de C\xE1lculo 1"
   description: 
   targetBlock: {fileID: 4045165141642146879}
   hideIfVisited: 0
@@ -3089,7 +3090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: "Hmm, ol\xE1 amigo, deve ser bixo n\xE9, voc\xEA tem que buscar nas
+  storyText: "Hmm, ol\xE1, amigo. Deve ser bixo, n\xE9? Voc\xEA tem que buscar nas
     prateleiras do primeiro andar."
   description: 
   character: {fileID: 4045165141985058004}
@@ -3146,8 +3147,8 @@ MonoBehaviour:
   itemId: 9
   indentLevel: 0
   storyText: "Pega a minha, c\xEA vai precisar para alugar livros e entrar em alguns
-    pr\xE9dios. Quando voc\xEA pegar a sua no servi\xE7o de gradua\xE7\xE3o, volte
-    aqui e devolva-a."
+    pr\xE9dios. Quando voc\xEA pegar a sua no servi\xE7o de gradua\xE7\xE3o, devolva
+    a minha."
   description: 
   character: {fileID: 4045165141985058004}
   portrait: {fileID: 21300000, guid: 87cee3197e5f4b845a13158af913f0ab, type: 3}
@@ -3297,8 +3298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: "Ta, n\xE3o sei muito bem como a biblioteca funciona, mas deve ter algu\xE9m
-    aqui para me dar informa\xE7\xF5es."
+  storyText: "Ok, n\xE3o sei muito bem como a Biblioteca funciona, mas deve ter algu\xE9m
+    aqui para me dar informa\xE7\xF5es..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -3325,7 +3326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  storyText: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -3509,7 +3510,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Relaxa, n\xE3o vai dar n\xE3o, confia."
   description: 
-  character: {fileID: 4045165141985058004}
+  character: {fileID: 4045165142196609193}
   portrait: {fileID: 21300000, guid: 87cee3197e5f4b845a13158af913f0ab, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3622,7 +3623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Se voc\xEA tiver alguma d\xFAvida, pode perguntar na guarita do bloco
+  storyText: "Se voc\xEA tiver alguma d\xFAvida, pode perguntar na guarita do Bloco
     4."
   description: 
   character: {fileID: 4045165142196609193}
@@ -4066,11 +4067,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 23.45916, y: -160.43513}
+  scrollPos: {x: 284.72723, y: 121.07004}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
-  zoom: 0.97
+  blockViewHeight: 450
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4078,9 +4079,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 4045165141697465696}
+  - {fileID: 4045165141697465688}
   selectedCommands:
-  - {fileID: 4045165141697465639}
+  - {fileID: 4045165141697465690}
   variables:
   - {fileID: 4045165141697465629}
   - {fileID: 4045165141697465630}
@@ -4112,7 +4113,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -183.14282
     y: 67.14287
-    width: 122.16495
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4155,7 +4156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: Oi, meu chapa. Aqui, sua carteirinha. (entregar carteirinha do Freddy)
+  text: Oi, meu chapa. Aqui, sua carteirinha (entregar carteirinha do Freddy)
   description: 
   targetBlock: {fileID: 4045165141697465691}
   hideIfVisited: 0
@@ -4182,7 +4183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 32.336548
     y: 42.857147
-    width: 88.14433
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4273,7 +4274,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 38.166935
     y: 307.84717
-    width: 112.8866
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4304,7 +4305,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 191.3594
     y: 295.6691
-    width: 150
+    width: 147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4440,7 +4441,7 @@ MonoBehaviour:
   itemId: 59
   indentLevel: 0
   storyText: "Cara, voc\xEA \xE9 um ascensorista? Toda vez que eu te vejo c\xEA t\xE1
-    nesse elevador."
+    nesse elevador..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -4496,7 +4497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 189.38724
     y: 117.228165
-    width: 108.762886
+    width: 107
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4535,7 +4536,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.845963
     y: 211.56804
-    width: 127.31959
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4569,7 +4570,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403.8759
     y: 355.73972
-    width: 119.07217
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4764,7 +4765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: "Ah, fazem tantos anos que eu j\xE1 nem lembro... Mas quando c\xEA tiver
+  storyText: "Ah, faz tantos anos que eu j\xE1 nem lembro... Mas quando c\xEA tiver
     um tempo"
   description: 
   character: {fileID: 4045165142196609193}
@@ -4792,7 +4793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: "v\xE1 na biblioteca do CAASO e pergunte pra tia Celly, ela vai saber
+  storyText: "v\xE1 na biblioteca do CAASO e pergunte para a tia Celly, ela vai saber
     informar melhor."
   description: 
   character: {fileID: 4045165142196609193}
@@ -4895,7 +4896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 1
-  text: "Voc\xEA parece cansado."
+  text: "Voc\xEA parece cansado!"
   description: 
   targetBlock: {fileID: 4045165141697465711}
   hideIfVisited: 0
@@ -4997,7 +4998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 1
-  text: "Voc\xEA alugou o livro de c\xE1lculo?"
+  text: "Voc\xEA alugou o livro de C\xE1lculo?"
   description: 
   targetBlock: {fileID: 4045165141697465715}
   hideIfVisited: 0
@@ -5024,7 +5025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 386.44983
     y: 200.66548
-    width: 120.10309
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5058,8 +5059,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: "Outra coisa, no meu livro de c\xE1lculo diz que um tal de Freddy o
-    alugou"
+  storyText: "Outra coisa, no meu livro de C\xE1lculo diz que um tal de Freddy o
+    alugou..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -5086,7 +5087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  text: "Bom, acho que j\xE1 vou indo ent\xE3o"
+  text: "Bom, acho que j\xE1 vou indo ent\xE3o..."
   description: 
   targetBlock: {fileID: 4045165141697465696}
   hideIfVisited: 0
@@ -5301,7 +5302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: "Ah, agora eu entendi, agora eu saquei, agora todas as pe\xE7as se encaixaram."
+  storyText: "Ah, agora eu entendi, agora eu saquei, agora todas as pe\xE7as se encaixaram..."
   description: 
   character: {fileID: 4045165142196609193}
   portrait: {fileID: 21300000, guid: 87cee3197e5f4b845a13158af913f0ab, type: 3}
@@ -5328,7 +5329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: "Que, cara? C\xEA t\xE1 na Disney?!"
+  storyText: "Qu\xEA, cara? C\xEA t\xE1 na Disney?!"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -5575,7 +5576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 0
-  storyText: "Eu apenas lembro que tinha que fazer uma sub de C\xE1lculo, e que estava
+  storyText: "Eu s\xF3 lembro que tinha que fazer uma sub de C\xE1lculo, e que estava
     buscando algumas coisas"
   description: 
   character: {fileID: 4045165142196609193}
@@ -5603,8 +5604,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: "antes de ir participar do rol\xEA de formatura, al\xE9m de ter que
-    devolver um Guidorizzi aqui na biblio\u2026"
+  storyText: "antes de ir pro rol\xEA de formatura, al\xE9m de ter que devolver um
+    Guidorizzi aqui na Biblio\u2026"
   description: 
   character: {fileID: 4045165142196609193}
   portrait: {fileID: 21300000, guid: 87cee3197e5f4b845a13158af913f0ab, type: 3}
@@ -7740,10 +7741,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 155.05487, y: -18.521349}
+  scrollPos: {x: 411.05487, y: 182.47865}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 187
+  blockViewHeight: 455
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -7752,7 +7753,6 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 4045165141754117420}
   - {fileID: 4045165141754117423}
   selectedCommands: []
   variables: []
@@ -7880,7 +7880,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Relaxa, n\xE3o vai dar n\xE3o, confia."
   description: 
-  character: {fileID: 4045165141985058004}
+  character: {fileID: 4045165142196609193}
   portrait: {fileID: 21300000, guid: 87cee3197e5f4b845a13158af913f0ab, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7940,7 +7940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "Se voc\xEA tiver alguma d\xFAvida, pode perguntar na guarita do bloco
+  storyText: "Se voc\xEA tiver alguma d\xFAvida, pode perguntar na guarita do Bloco
     4."
   description: 
   character: {fileID: 4045165142196609193}
@@ -9489,10 +9489,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 98.6206, y: -9.784404}
+  scrollPos: {x: 313.39325, y: 134.53377}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 507
   zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
@@ -9502,7 +9502,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 4045165142016641387}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 4045165142016641377}
   variables: []
   description: 
   stepPause: 0
@@ -9692,7 +9693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: "Voc\xEA \xE9 e sempre ser\xE1 bem-vindo \xE0 sala do PET, jovem! E
+  storyText: "Voc\xEA \xE9 e sempre ser\xE1 bem-vindo \xE0 Sala do PET, jovem! E
     v\xEA se participa do nosso processo seletivo, hein?"
   description: 
   character: {fileID: 4045165142312683888}
@@ -10189,7 +10190,7 @@ MonoBehaviour:
   scrollPos: {x: 118.5849, y: -7.351151}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 459
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -10200,7 +10201,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 4045165142168932598}
   selectedCommands:
-  - {fileID: 4045165142168932587}
+  - {fileID: 4045165142168932588}
   variables: []
   description: 
   stepPause: 0
@@ -11092,7 +11093,7 @@ MonoBehaviour:
   scrollPos: {x: 32.602432, y: 22.728607}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 201
+  blockViewHeight: 550
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -11100,10 +11101,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 4045165142276204914}
-  selectedCommands:
-  - {fileID: 4045165142276204890}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -11131,7 +11130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84.56246
     y: 91.57993
-    width: 60
+    width: 83
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11301,7 +11300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: Ei, amigo, um momento.
+  storyText: Ei, amigo, um momento!
   description: 
   character: {fileID: 4045165142196609193}
   portrait: {fileID: 21300000, guid: 87cee3197e5f4b845a13158af913f0ab, type: 3}
@@ -11328,7 +11327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Eita, c\xEA parece r\xE1pido demais pra um veterano cansado."
+  storyText: "Eita, c\xEA parece r\xE1pido demais pra um veterano cansado..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -11382,7 +11381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "Deixa de ideia, doido. T\xE1 aqui o seu suco e eu fiz sua SUB, acho
+  storyText: "Deixa de ideia, doido. T\xE1 aqui o seu suco e eu fiz sua sub, acho
     que c\xEA t\xE1 aprovado agora."
   description: 
   character: {fileID: 4045165141697255330}
@@ -11491,7 +11490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: "Agora finalmente voc\xEA vai explicar o que aconteceu?"
+  storyText: "Agora finalmente voc\xEA vai me explicar o que aconteceu?"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -12733,7 +12732,7 @@ MonoBehaviour:
   scrollPos: {x: 489.33566, y: 52.99248}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 550
   zoom: 0.6700002
   scrollViewRect:
     serializedVersion: 2
@@ -12743,7 +12742,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 4045165142573119858}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 4045165142573119868}
   variables: []
   description: 
   stepPause: 0
@@ -12771,7 +12771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -20
     y: 165
-    width: 60
+    width: 88.805954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12863,7 +12863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: "Ol\xE1, visitante, bem vindo!"
+  storyText: "Ol\xE1, visitante, bem-vindo!"
   description: 
   character: {fileID: 4045165142312683888}
   portrait: {fileID: 0}
@@ -12944,7 +12944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: "Acho que nada, loucura kkkkk. Eu estou a procura da lista de ingredientes
+  storyText: "Acho que nada, loucura kkkkk. Eu estou procurando a lista de ingredientes
     do elixir lend\xE1rio, voc\xEA sabe onde est\xE1?"
   description: 
   character: {fileID: 4045165141697255330}
@@ -13178,7 +13178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: "Tudo bem, aqui parece ser a dire\xE7\xE3o da sala do PET, vamos ver
+  storyText: "Tudo bem, aqui parece ser a dire\xE7\xE3o da Sala do PET, vamos ver
     se tem algum ingrediente da lista por l\xE1."
   description: 
   character: {fileID: 4045165141697255330}
@@ -13534,10 +13534,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 329.93, y: 118.275185}
+  scrollPos: {x: 562.7425, y: 290.15018}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 435
   zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
@@ -13546,9 +13546,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 4045165142641495826}
+  - {fileID: 4045165142641495831}
   selectedCommands:
-  - {fileID: 4045165142641495824}
+  - {fileID: 4045165142641495816}
   variables: []
   description: 
   stepPause: 0
@@ -13675,7 +13675,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: "O qu\xEA? Freddy, o eterno graduando? Isso \xE9 s\xF3 uma lenda, ele
-    j\xE1 se formou h\xE1 muito tempo."
+    j\xE1 se formou h\xE1 muito tempo..."
   description: 
   character: {fileID: 4045165142782436342}
   portrait: {fileID: 0}
@@ -13730,8 +13730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: "Pobre calouro\u2026 acho que o vestibular fritou seus \xFAltimos neur\xF4nios,
-    est\xE1 delirando."
+  storyText: "Pobre calouro\u2026 Acho que o vestibular fritou seus \xFAltimos neur\xF4nios,
+    est\xE1 delirando!"
   description: 
   character: {fileID: 4045165142782436342}
   portrait: {fileID: 0}
@@ -13758,7 +13758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  text: "Como assim? Ele est\xE1 na biblioteca. "
+  text: "Como assim? Ele est\xE1 na Biblioteca! "
   description: 
   targetBlock: {fileID: 4045165142641495831}
   hideIfVisited: 0
@@ -14557,10 +14557,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 100.95975, y: -43.968353}
+  scrollPos: {x: 362.95975, y: 114.03165}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 386
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -14569,8 +14569,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 4045165142946868060}
-  selectedCommands: []
+  - {fileID: 4045165142946868064}
+  selectedCommands:
+  - {fileID: 4045165142946868065}
   variables: []
   description: 
   stepPause: 0
@@ -14597,7 +14598,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -87.59132
-    y: 107.46835
+    y: 106.46835
     width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14642,7 +14643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: Sim.
+  text: Sim
   description: 
   targetBlock: {fileID: 4045165142946868060}
   hideIfVisited: 0
@@ -14839,7 +14840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  text: "N\xE3o."
+  text: "N\xE3o"
   description: 
   targetBlock: {fileID: 4045165142946868070}
   hideIfVisited: 0
@@ -14864,7 +14865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  text: "P\xF4, cara\u2026 O guardinha confiscou."
+  text: "P\xF4, cara\u2026 O guardinha confiscou"
   description: 
   targetBlock: {fileID: 4045165142946868066}
   hideIfVisited: 0
@@ -14945,7 +14946,7 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   text: "Calma, ele disse que eu posso retirar na gaveta, s\xF3 n\xE3o sei onde fica
-    isso, rs."
+    isso, rs"
   description: 
   targetBlock: {fileID: 4045165142946868064}
   hideIfVisited: 0
@@ -14999,7 +15000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: "Ai, ai\u2026 Calouros fazendo calourisse\u2026 Perto do bloco 1 tem
+  storyText: "Ai, ai\u2026 Calouros fazendo calourisse\u2026 Perto do Bloco 1 tem
     uma gaveta do tamanho de um pr\xE9dio, pode ser que esteja l\xE1."
   description: 
   character: {fileID: 4045165142196609193}
@@ -15435,7 +15436,7 @@ MonoBehaviour:
   scrollPos: {x: 299.40912, y: -14.5}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 204
+  blockViewHeight: 535
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -15595,7 +15596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "Ei, Gauss, voc\xEA sabe onde eu poderia arrumar um tanto de a\xE7\xFAcar?"
+  storyText: "Ei, Gauss, voc\xEA sabe onde eu poderia arrumar um pouco de a\xE7\xFAcar?"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -15832,7 +15833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: "Estranhas como andam as coisas, n\xE3o custa tentar \u2026"
+  storyText: "Estranhas como andam as coisas, n\xE3o custa tentar\u2026"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -16274,10 +16275,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 215.05075, y: 41.018463}
+  scrollPos: {x: 363.40317, y: 202.55702}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 353
   zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
@@ -16286,8 +16287,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 4045165143127329467}
-  selectedCommands: []
+  - {fileID: 4045165143127329448}
+  selectedCommands:
+  - {fileID: 4045165143127329471}
   variables: []
   description: 
   stepPause: 0
@@ -16357,7 +16359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: "Perguntar ao guarda onde fica o servi\xE7o de gradua\xE7\xE3o"
+  text: "Perguntar ao guarda onde fica o Servi\xE7o de Gradua\xE7\xE3o"
   description: 
   targetBlock: {fileID: 4045165143127329462}
   hideIfVisited: 0
@@ -16498,7 +16500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  text: Aqui, senhor. (mostrar carteirinha do Freddy)
+  text: Aqui, senhor (mostrar carteirinha do Freddy)
   description: 
   targetBlock: {fileID: 4045165143127329448}
   hideIfVisited: 0
@@ -16636,7 +16638,7 @@ MonoBehaviour:
   itemId: 20
   indentLevel: 0
   storyText: "Ah, e como voc\xEA tinha perguntado: a gradua\xE7\xE3o fica logo ali
-    *aponta para frente*"
+    *aponta para frente*."
   description: 
   character: {fileID: 4045165142008542289}
   portrait: {fileID: 21300000, guid: 48654bd7a9cec7444980f5b372e5e2e2, type: 3}
@@ -16663,7 +16665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  text: "N\xE3o tenho ainda senhor."
+  text: "N\xE3o tenho ainda, senhor"
   description: 
   targetBlock: {fileID: 4045165143127329467}
   hideIfVisited: 0
@@ -16716,7 +16718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Ah, bixo, a gradua\xE7\xE3o fica logo ali *aponta para frente*"
+  storyText: "Ah, bixo, a gradua\xE7\xE3o fica logo ali *aponta para frente*."
   description: 
   character: {fileID: 4045165142008542289}
   portrait: {fileID: 21300000, guid: 48654bd7a9cec7444980f5b372e5e2e2, type: 3}
@@ -16981,7 +16983,7 @@ MonoBehaviour:
   scrollPos: {x: 266.81488, y: -42.615273}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 536
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -16991,8 +16993,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 4045165143196302966}
-  selectedCommands:
-  - {fileID: 4045165143196302953}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -17078,7 +17079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Que coisa estranha, parece que o instituto est\xE1 completamente vazio."
+  storyText: "Que coisa estranha, parece que o Instituto est\xE1 completamente vazio..."
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
@@ -17147,7 +17148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "Onde ser\xE1 que fica minha sala de aula?"
+  storyText: "Onde ser\xE1 que fica a minha sala de aula?"
   description: 
   character: {fileID: 4045165141697255330}
   portrait: {fileID: 0}
