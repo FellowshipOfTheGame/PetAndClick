@@ -729,7 +729,6 @@ GameObject:
   - component: {fileID: 246534993}
   - component: {fileID: 246534998}
   - component: {fileID: 246534999}
-  - component: {fileID: 246535000}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -868,22 +867,6 @@ MonoBehaviour:
   - {fileID: 95505310}
   - {fileID: 1751507558}
   quest_ativa: 7
---- !u!114 &246535000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246534992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f014ae6082c50f45bb410eb59de6965, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  master: {fileID: 0}
-  setas:
-  - {fileID: 1341316823}
-  quest_ativa: 2
 --- !u!1 &1151536998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1341316824
 RectTransform:
   m_ObjectHideFlags: 0
