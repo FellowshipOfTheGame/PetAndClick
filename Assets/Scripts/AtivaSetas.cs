@@ -12,7 +12,7 @@ public class AtivaSetas : MonoBehaviour
     void Start()
     {
          master = GameObject.FindWithTag("Master").GetComponent(typeof(GameMaster)) as GameMaster;
-         if(PlayerPrefs.GetInt("Current Quest")==quest_ativa){
+         if(PlayerPrefs.GetInt("Current Quest")>=quest_ativa){
     		foreach(GameObject seta in setas){
     			seta.SetActive(true);
     		}
