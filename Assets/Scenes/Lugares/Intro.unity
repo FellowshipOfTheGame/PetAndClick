@@ -274,6 +274,18 @@ PrefabInstance:
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -8604846150704674180, guid: 4ae17d0f5e17b4b48958ec1f686eb1a5, type: 2}
+    - target: {fileID: 6347277298667717398, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347277298667717398, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347277298667717398, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11b2c2c55bdcd4a4e886bf4b7386f64f, type: 3}
 --- !u!1 &709744383

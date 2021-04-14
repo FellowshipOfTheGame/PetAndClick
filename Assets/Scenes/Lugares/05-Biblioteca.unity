@@ -1170,7 +1170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1153074462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1178,17 +1178,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153074461}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9754201, w: 0.22035322}
+  m_LocalRotation: {x: -0, y: -0, z: 0.027833026, w: 0.9996126}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1482339784}
   m_Father: {fileID: 876151365}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 154.54}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.19}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 433, y: -131}
+  m_AnchoredPosition: {x: 486.0747, y: -216}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153074463
@@ -1745,16 +1745,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482339783}
-  m_LocalRotation: {x: -0, y: -0, z: -0.9754202, w: 0.22035323}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.008615404, y: -0.017547082, z: -0.01205646, w: 0.9997363}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1153074462}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.963, y: -2.023, z: -1.399}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -63.946106, y: 10.0234375}
+  m_AnchoredPosition: {x: 39, y: 44}
   m_SizeDelta: {x: 66.58, y: 18.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482339785
@@ -2193,6 +2193,7 @@ GameObject:
   - component: {fileID: 2008341319}
   - component: {fileID: 2008341320}
   - component: {fileID: 2008341321}
+  - component: {fileID: 2008341322}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2343,3 +2344,19 @@ MonoBehaviour:
   setas:
   - {fileID: 1618305853}
   quest_ativa: 7
+--- !u!114 &2008341322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008341313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f014ae6082c50f45bb410eb59de6965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  master: {fileID: 0}
+  setas:
+  - {fileID: 1153074461}
+  quest_ativa: 4
